@@ -1,0 +1,46 @@
+.pageTitle {
+    font-size: 2rem;
+    margin: 12px;
+    padding-left: 12px;
+}
+
+.products {
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.products input {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    height: 46px;
+    margin: 20px 0;
+    padding-left: 12px;
+    font: 1.5rem;
+    position: sticky;
+    top: 0;
+    box-shadow: 1px 8px 12px #ddd;
+    padding-right: 20px;
+    border-top: 0;
+}
+
+
+.products input:focus {
+    outline: none;
+}
+
+.addBtn {
+    height: 40px;
+    width: 120px;
+    margin-right: 30px;
+    background-color: rgb(3, 3, 70);
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.addBtn:hover {
+    opacity: .7;
+}

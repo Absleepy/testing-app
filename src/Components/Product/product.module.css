@@ -1,0 +1,44 @@
+.productContainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    padding-left: 30px;
+    gap: 12px;
+    border: 1px solid #f2f2f2;
+}
+
+.productContainer:hover {
+    background-color: #f2efef;
+}
+
+
+.productImg {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex: 1;
+}
+
+
+.productImg img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.actionBtn {
+    font-size: 11px;
+    text-decoration: underline;
+}
+
+.actionBtn:nth-child(3):hover {
+    color: red;
+}
+
+
+@media (max-width: 768px) {
+    .productContainer {
+        overflow-x: auto;
+        gap: 50px;
+    }
+}
